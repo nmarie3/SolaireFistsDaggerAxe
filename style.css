@@ -1,0 +1,58 @@
+﻿body
+{
+ background-color: dimgrey;
+}
+
+header h1 {
+
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div img {
+    max-height: 90px;
+    width: auto;
+    background-color: sandybrown;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+.hidden {
+    display: none;
+}
+
+main * {
+    max-height: 500px;
+    width: auto;
+}
+
+
+h1, h3, h2 {
+    text-align: center;
+    font-family: 'UnifrakturCook', cursive;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+h3 {
+    margin: 0;
+    padding: 5px;
+    font-size: 150%;
+}
+
+#tie {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 30%;
+    height: 70%;
+    display: none;
+}
